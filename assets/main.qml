@@ -8,6 +8,11 @@ Page {
             onTriggered: {
                 myLabel.text = "Jamming at BBJam Asia"
             }
+            shortcuts: [
+                Shortcut {
+                    key: 'J'
+                }
+            ]
         }
     ]
     Container {
